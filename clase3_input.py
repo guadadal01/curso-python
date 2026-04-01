@@ -80,3 +80,21 @@ edad =  int(input ("Ingrese su edad: "))
 altura = float (input ("Ingrese su altura: "))
 
 print (f"Hola {nombre}, tenes {edad} años y medis {altura} metros")
+
+#Ej11 - Calcular la edad dado el año de nac.
+año_nac = int(input("Ingrese su año de nacimiento: "))
+edad_actual = 2026 - año_nac
+print (f"Tu edad es: {edad_actual} ")
+
+#Ej12 - Area rectangulo
+altura = int(input("Ingrese la altura de su rectangulo: "))
+base = int(input("Ingrese la base de su rectangulo: "))
+area = base * altura
+print (f"El area de tu rectangulo es de: {area}")
+
+#Ej13 - Doble del numero
+num = int(input("Ingrese un numero: ")) 
+doble_num = num * 2
+print (f"El doble de {num} es {doble_num}")
+
+
