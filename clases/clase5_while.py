@@ -14,8 +14,9 @@ while num >= 1:
 print ("despegue!")
 
 #Ejercicio3
-"""Pedile al usuario un número y mostrá todos los números pares desde 0 hasta ese número.
-num = int(input("Ingrese un numero: "))"""
+"""Pedile al usuario un número y mostrá todos los números pares desde 0 hasta ese número."""
+
+num = int(input("Ingrese un numero: "))
 cont = 0
 while cont <= num:
     print (cont)
