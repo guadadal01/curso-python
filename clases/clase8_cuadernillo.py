@@ -8,8 +8,8 @@ for n in numeros:
 #Ejercicio2
 """Dada puntajes = [85, 42, 91, 77, 33, 60, 99, 12], encontrá el mayor y el menor valor sin usar max() ni min() (queremos entender el algoritmo).
 puntajes = [85, 42, 91, 77, 33, 60, 99, 12]
-max = -9999
-min = 9999
+max = puntajes [0]
+min = puntajes [0]
 for p in puntajes:
     if p > max : max = p
     if p < min : min = p
