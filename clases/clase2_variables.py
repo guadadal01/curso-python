@@ -49,6 +49,60 @@ print(x and y)
 print(x or y)
 print(not x)
 
+#OPERACIONES CON STRING
+
+#concatenacion
+saludo = "Hola" + " " + "Maxi"
+print(saludo)      # Hola Maxi
+
+separador = "-" * 20
+print(separador)   # --------------------
+
+#longitud
+nombre = "Maxi"
+print(len(nombre))  # 4
+
+texto = "hola mundo"
+
+#Mayusculas y Minusculas
+print(texto.upper())       # HOLA MUNDO
+print(texto.lower())       # hola mundo
+print(texto.capitalize())  # Hola mundo
+print(texto.title())       # Hola Mundo
+
+#limpiar espacios
+texto = "   Hola   "
+print(texto.strip())   # "Hola"  — elimina espacios de ambos lados
+
+#reemplazar
+frase = "Hola Mundo"
+print(frase.replace("Mundo", "Python"))  # Hola Python
+
+#Dividir y unir
+frase = "Hola Maxi Perez"
+palabras = frase.split(" ") #divide el string en una lista
+print(palabras)   # ['Hola', 'Maxi', 'Perez']
+
+
+nombres = ["Maxi", "Ana", "Luis"]
+resultado = "-".join(nombres) #une una lista en un string
+print(resultado)  # Maxi-Ana-Luis
+
+#Buscar
+frase = "Python es genial"
+
+print(frase.find("es"))        # 7  — posición donde aparece
+print(frase.count("a"))        # 1  — cuántas veces aparece
+print(frase.startswith("Py"))  # True
+print(frase.endswith("ial"))   # True
+print("genial" in frase)       # True — pertenencia
+
+#Acceso por indice y slicing
+nombre = "Python"
+print(nombre[0])    # P   — primer carácter
+print(nombre[-1])   # n   — último carácter
+print(nombre[0:3])  # Pyt — desde índice 0 hasta 2
+
 #casteo
 nombre = 15 + int("26")
 print(f"hola {nombre} sos guada")
