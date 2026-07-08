@@ -165,3 +165,13 @@ aprender python es aprender a pensar"""
 
 for clave, valor in resumen(texto).items():
     print(f"{clave}: {valor}")
+
+#Como documentar funciones
+def devolver_maximo(lista:list) -> int:
+    """
+    Esta funcion devuelve el maximo de la lista recibida
+    """
+    return max(lista)
+    
+
+maximo = devolver_maximo
