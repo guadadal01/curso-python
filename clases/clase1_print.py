@@ -17,7 +17,7 @@ print ("ahi", "hay", "ay", sep = "-")
 print ("1", "2", "3", sep=",")
 
 #ejercicio4
-print ("sabrina", end=" ")
+print ("sabrina", end=" --")
 print ("te amo")
 
 #Desafio
